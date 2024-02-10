@@ -1,0 +1,100 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body{
+    background-color: rgb(63, 63, 83);
+    color: hsl(228, 45%, 44%);
+}
+.container{
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50vh;
+    width:540px;
+    padding: 10px;
+    margin-top: 150px;
+}
+.container-left{
+    margin: 20px;
+    height: 260px;
+    width: 75%;
+}
+.title{
+    color: rgb(28, 28, 99);
+    font-weight: 700;
+    font-size: 30px;
+}
+.title-para{
+    font-size: 12px;
+    font-weight: 500;
+}
+.mainList ul{
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.mainList ul li{
+    list-style-type: none;
+    font-size: 10px;
+    margin-top: 2px;
+}
+.mainList ul li span{
+    font-size: 11px;
+    padding-left: 15px;
+    font-weight: 500;
+}
+.emailSection h6{
+    font-size: 13px;
+}
+.emailSection input{
+    font-size: 12px;  
+    font-weight:500;  
+    padding: 5px 119px 5px 5px;
+}
+.emailSection button{
+    font-size: 13px;
+    background-image: linear-gradient(to right,rgb(245, 94, 127),rgb(247, 94, 55));
+    box-shadow: 10px;
+    padding: 5px 50px 5px 30px;
+}
+.popup{
+    height: 40vh;
+    width: 45vh;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 500px;
+    top: 0px;
+    border-radius: 10px;
+    padding: 20px;
+    visibility: hidden;
+
+}
+.open-pop{
+    visibility: visible;
+    top: 30%;
+}
+.close-pop{
+    visibility: hidden;
+}
+.popup h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(12, 12, 82);
+}
+.success-para{
+    font-size: 10px;
+}
+.popup button{
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to right,rgb(245, 94, 127),rgb(247, 94, 55));
+    font-size: 12px;
+    padding: 4px 30px;
+}
